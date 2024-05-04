@@ -47,8 +47,8 @@
 </div>
 <script>
   function completeLevel() {
-      // Call Unity function to close the browser
-      UnityCloseBrowser();
+      // Call Unity function to notify that complete button is pressed
+      UnitySendMessage('LevelManager', 'CompleteButtonPressed');
   }
 </script>
 
