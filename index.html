@@ -36,14 +36,21 @@
       </div>
     </nav>
 <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column" style="background-color:#aaa;  padding-bottom: 20px;">
     <embed src="src/Intro_python.pdf" style="padding: 0.5%;" height="220%" width="100%">
+      <button class="btn btn-primary" style= "padding: 0.5%; margin-left: 20px;" onclick="completeLevel()">Complete</button>
+            
   </div>
   <div class="column" style="background-color:#bbb;">
-    <embed src="https://www.jdoodle.com/python3-programming-online" style="padding: .5%;" height="220%" width="100%">
+    <embed src="https://www.jdoodle.com/python3-programming-online" style="padding: .5%; " height="220%" width="100%">
   </div>
 </div>
-
+<script>
+  function completeLevel() {
+      // Call Unity function to close the browser
+      UnityCloseBrowser();
+  }
+</script>
 
 </body>
 </html>
