@@ -47,8 +47,8 @@
 </div>
 <script>
   function completeLevel() {
-      // Close the webpage
-      window.close();
+      // Post message to Unity
+      window.parent.postMessage("CompleteButtonPressed", "*");
   }
 </script>
 
