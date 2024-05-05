@@ -39,4 +39,4 @@ other's progress.
 
 Please note that the "Library" folder is excluded from this repository due to its size. It will be auto-generated when you open the project in Unity.
 
-Also, due to file size limits, the files inside the "textures" folder within the "Assets" folder are not included in this repository. You may need to add them manually to run the project.
+Also, due to file size limits, the "textures" folder within the "Assets" folder is not included in this repository. You may need to add them manually to run the project.
